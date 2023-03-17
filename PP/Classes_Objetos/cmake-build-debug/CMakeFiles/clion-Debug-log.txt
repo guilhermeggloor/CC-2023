@@ -1,0 +1,13 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /usr/bin/zsh -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export WSL_INTEROP=/run/WSL/33902_interop && export JETBRAINS_IDE=TRUE && cd '/home/ggloor/Documents/CC/PP/Classes&Objetos/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S '/home/ggloor/Documents/CC/PP/Classes&Objetos' -B '/home/ggloor/Documents/CC/PP/Classes&Objetos/cmake-build-debug'"
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    Circunfer�ncia/main.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: Classes_Objetos
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
