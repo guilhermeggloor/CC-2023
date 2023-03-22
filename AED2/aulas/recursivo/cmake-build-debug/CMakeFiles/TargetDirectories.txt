@@ -1,0 +1,3 @@
+/home/ggloor/Documents/CC/AED2/recursivo/cmake-build-debug/CMakeFiles/recursivo.dir
+/home/ggloor/Documents/CC/AED2/recursivo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ggloor/Documents/CC/AED2/recursivo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
