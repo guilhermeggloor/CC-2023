@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.o CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o -o PP 
+/usr/bin/c++ -g CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.o CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o -o PP 

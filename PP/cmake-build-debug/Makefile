@@ -177,6 +177,30 @@ Classes_Objetos/Circunferencia/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.s
 .PHONY : Classes_Objetos/Circunferencia/main.cpp.s
 
+Classes_Objetos/Destrutor/main.o: Classes_Objetos/Destrutor/main.cpp.o
+.PHONY : Classes_Objetos/Destrutor/main.o
+
+# target to build an object file
+Classes_Objetos/Destrutor/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o
+.PHONY : Classes_Objetos/Destrutor/main.cpp.o
+
+Classes_Objetos/Destrutor/main.i: Classes_Objetos/Destrutor/main.cpp.i
+.PHONY : Classes_Objetos/Destrutor/main.i
+
+# target to preprocess a source file
+Classes_Objetos/Destrutor/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.i
+.PHONY : Classes_Objetos/Destrutor/main.cpp.i
+
+Classes_Objetos/Destrutor/main.s: Classes_Objetos/Destrutor/main.cpp.s
+.PHONY : Classes_Objetos/Destrutor/main.s
+
+# target to generate assembly for a file
+Classes_Objetos/Destrutor/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.s
+.PHONY : Classes_Objetos/Destrutor/main.cpp.s
+
 Classes_Objetos/Exemplo/main.o: Classes_Objetos/Exemplo/main.cpp.o
 .PHONY : Classes_Objetos/Exemplo/main.o
 
@@ -240,6 +264,9 @@ help:
 	@echo "... Classes_Objetos/Circunferencia/main.o"
 	@echo "... Classes_Objetos/Circunferencia/main.i"
 	@echo "... Classes_Objetos/Circunferencia/main.s"
+	@echo "... Classes_Objetos/Destrutor/main.o"
+	@echo "... Classes_Objetos/Destrutor/main.i"
+	@echo "... Classes_Objetos/Destrutor/main.s"
 	@echo "... Classes_Objetos/Exemplo/main.o"
 	@echo "... Classes_Objetos/Exemplo/main.i"
 	@echo "... Classes_Objetos/Exemplo/main.s"

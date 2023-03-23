@@ -7,4 +7,5 @@ add_executable(PP
         "Classes_Objetos/Circulo/ main.cpp"
         Classes_Objetos/Circunferencia/main.cpp
         Classes_Objetos/Exemplo/main.cpp
-        Classes_Objetos/pontos/main.cpp)
+        Classes_Objetos/pontos/main.cpp Classes_Objetos/Destrutor/main.cpp)
+

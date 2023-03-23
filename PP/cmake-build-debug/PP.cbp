@@ -88,6 +88,9 @@
 		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/main.cpp">
 			<Option target="PP"/>
 		</Unit>
+		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/main.cpp">
+			<Option target="PP"/>
+		</Unit>
 		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Exemplo/main.cpp">
 			<Option target="PP"/>
 		</Unit>
