@@ -82,19 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/ main.cpp">
+		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/circle.cpp">
 			<Option target="PP"/>
 		</Unit>
-		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/main.cpp">
+		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/circunference.cpp">
 			<Option target="PP"/>
 		</Unit>
-		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/main.cpp">
+		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/descructor_node.cpp">
 			<Option target="PP"/>
 		</Unit>
 		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/Exemplo/main.cpp">
 			<Option target="PP"/>
 		</Unit>
-		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/main.cpp">
+		<Unit filename="/home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/pointers.cpp">
 			<Option target="PP"/>
 		</Unit>
 		<Unit filename="/home/ggloor/Documents/CC/PP/CMakeLists.txt">

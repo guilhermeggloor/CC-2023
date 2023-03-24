@@ -69,33 +69,33 @@ include CMakeFiles/PP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PP.dir/flags.make
 
-CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o: CMakeFiles/PP.dir/flags.make
-CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o: ../Classes_Objetos/Circulo/\ main.cpp
-CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o -c "/home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/ main.cpp"
+CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o: CMakeFiles/PP.dir/flags.make
+CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o: ../Classes_Objetos/Circulo/circle.cpp
+CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o -c /home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/circle.cpp
 
-CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/ main.cpp" > CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.i
+CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/circle.cpp > CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.i
 
-CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/ main.cpp" -o CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.s
+CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/Circulo/circle.cpp -o CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.s
 
-CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o: CMakeFiles/PP.dir/flags.make
-CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o: ../Classes_Objetos/Circunferencia/main.cpp
-CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o -c /home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/main.cpp
+CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o: CMakeFiles/PP.dir/flags.make
+CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o: ../Classes_Objetos/Circunferencia/circunference.cpp
+CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o -c /home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/circunference.cpp
 
-CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/main.cpp > CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.i
+CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/circunference.cpp > CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.i
 
-CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/main.cpp -o CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.s
+CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/Circunferencia/circunference.cpp -o CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.s
 
 CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.o: CMakeFiles/PP.dir/flags.make
 CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.o: ../Classes_Objetos/Exemplo/main.cpp
@@ -111,50 +111,50 @@ CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/Exemplo/main.cpp -o CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.s
 
-CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o: CMakeFiles/PP.dir/flags.make
-CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o: ../Classes_Objetos/pontos/main.cpp
-CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o -c /home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/main.cpp
+CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o: CMakeFiles/PP.dir/flags.make
+CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o: ../Classes_Objetos/pontos/pointers.cpp
+CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o -c /home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/pointers.cpp
 
-CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/main.cpp > CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.i
+CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/pointers.cpp > CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.i
 
-CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/main.cpp -o CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.s
+CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/pontos/pointers.cpp -o CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.s
 
-CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o: CMakeFiles/PP.dir/flags.make
-CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o: ../Classes_Objetos/Destrutor/main.cpp
-CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o -c /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/main.cpp
+CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o: CMakeFiles/PP.dir/flags.make
+CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o: ../Classes_Objetos/Destrutor/descructor_node.cpp
+CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o: CMakeFiles/PP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o -MF CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o.d -o CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o -c /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/descructor_node.cpp
 
-CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/main.cpp > CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.i
+CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/descructor_node.cpp > CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.i
 
-CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/main.cpp -o CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.s
+CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/descructor_node.cpp -o CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.s
 
 # Object files for target PP
 PP_OBJECTS = \
-"CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o" \
-"CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o" \
+"CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o" \
+"CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o" \
 "CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.o" \
-"CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o" \
-"CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o"
+"CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o" \
+"CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o"
 
 # External object files for target PP
 PP_EXTERNAL_OBJECTS =
 
-PP: CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o
-PP: CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o
+PP: CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o
+PP: CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o
 PP: CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.o
-PP: CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o
-PP: CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o
+PP: CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o
+PP: CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o
 PP: CMakeFiles/PP.dir/build.make
 PP: CMakeFiles/PP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ggloor/Documents/CC/PP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PP"

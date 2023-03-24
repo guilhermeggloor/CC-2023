@@ -1,4 +1,4 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /usr/bin/zsh -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export WSL_INTEROP=/run/WSL/44480_interop && export JETBRAINS_IDE=TRUE && cd /home/ggloor/Documents/CC/PP/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /home/ggloor/Documents/CC/PP -B /home/ggloor/Documents/CC/PP/cmake-build-debug"
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /usr/bin/zsh -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export WSL_INTEROP=/run/WSL/10680_interop && export JETBRAINS_IDE=TRUE && cd /home/ggloor/Documents/CC/PP/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /home/ggloor/Documents/CC/PP -B /home/ggloor/Documents/CC/PP/cmake-build-debug"
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/ggloor/Documents/CC/PP/cmake-build-debug

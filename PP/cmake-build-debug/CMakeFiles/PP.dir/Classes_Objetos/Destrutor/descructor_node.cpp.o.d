@@ -1,5 +1,5 @@
-CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o: \
- /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/main.cpp \
+CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o: \
+ /home/ggloor/Documents/CC/PP/Classes_Objetos/Destrutor/descructor_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

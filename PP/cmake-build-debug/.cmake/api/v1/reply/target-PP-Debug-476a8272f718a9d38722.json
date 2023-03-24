@@ -102,13 +102,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Classes_Objetos/Circulo/ main.cpp",
+			"path" : "Classes_Objetos/Circulo/circle.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Classes_Objetos/Circunferencia/main.cpp",
+			"path" : "Classes_Objetos/Circunferencia/circunference.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -120,13 +120,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Classes_Objetos/pontos/main.cpp",
+			"path" : "Classes_Objetos/pontos/pointers.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Classes_Objetos/Destrutor/main.cpp",
+			"path" : "Classes_Objetos/Destrutor/descructor_node.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

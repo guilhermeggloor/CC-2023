@@ -129,77 +129,77 @@ PP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/build
 .PHONY : PP/fast
 
-Classes_Objetos/Circulo/_main.o: Classes_Objetos/Circulo/_main.cpp.o
-.PHONY : Classes_Objetos/Circulo/_main.o
+Classes_Objetos/Circulo/circle.o: Classes_Objetos/Circulo/circle.cpp.o
+.PHONY : Classes_Objetos/Circulo/circle.o
 
 # target to build an object file
-Classes_Objetos/Circulo/_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.o
-.PHONY : Classes_Objetos/Circulo/_main.cpp.o
+Classes_Objetos/Circulo/circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.o
+.PHONY : Classes_Objetos/Circulo/circle.cpp.o
 
-Classes_Objetos/Circulo/_main.i: Classes_Objetos/Circulo/_main.cpp.i
-.PHONY : Classes_Objetos/Circulo/_main.i
+Classes_Objetos/Circulo/circle.i: Classes_Objetos/Circulo/circle.cpp.i
+.PHONY : Classes_Objetos/Circulo/circle.i
 
 # target to preprocess a source file
-Classes_Objetos/Circulo/_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.i
-.PHONY : Classes_Objetos/Circulo/_main.cpp.i
+Classes_Objetos/Circulo/circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.i
+.PHONY : Classes_Objetos/Circulo/circle.cpp.i
 
-Classes_Objetos/Circulo/_main.s: Classes_Objetos/Circulo/_main.cpp.s
-.PHONY : Classes_Objetos/Circulo/_main.s
+Classes_Objetos/Circulo/circle.s: Classes_Objetos/Circulo/circle.cpp.s
+.PHONY : Classes_Objetos/Circulo/circle.s
 
 # target to generate assembly for a file
-Classes_Objetos/Circulo/_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circulo/_main.cpp.s
-.PHONY : Classes_Objetos/Circulo/_main.cpp.s
+Classes_Objetos/Circulo/circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circulo/circle.cpp.s
+.PHONY : Classes_Objetos/Circulo/circle.cpp.s
 
-Classes_Objetos/Circunferencia/main.o: Classes_Objetos/Circunferencia/main.cpp.o
-.PHONY : Classes_Objetos/Circunferencia/main.o
+Classes_Objetos/Circunferencia/circunference.o: Classes_Objetos/Circunferencia/circunference.cpp.o
+.PHONY : Classes_Objetos/Circunferencia/circunference.o
 
 # target to build an object file
-Classes_Objetos/Circunferencia/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.o
-.PHONY : Classes_Objetos/Circunferencia/main.cpp.o
+Classes_Objetos/Circunferencia/circunference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.o
+.PHONY : Classes_Objetos/Circunferencia/circunference.cpp.o
 
-Classes_Objetos/Circunferencia/main.i: Classes_Objetos/Circunferencia/main.cpp.i
-.PHONY : Classes_Objetos/Circunferencia/main.i
+Classes_Objetos/Circunferencia/circunference.i: Classes_Objetos/Circunferencia/circunference.cpp.i
+.PHONY : Classes_Objetos/Circunferencia/circunference.i
 
 # target to preprocess a source file
-Classes_Objetos/Circunferencia/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.i
-.PHONY : Classes_Objetos/Circunferencia/main.cpp.i
+Classes_Objetos/Circunferencia/circunference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.i
+.PHONY : Classes_Objetos/Circunferencia/circunference.cpp.i
 
-Classes_Objetos/Circunferencia/main.s: Classes_Objetos/Circunferencia/main.cpp.s
-.PHONY : Classes_Objetos/Circunferencia/main.s
+Classes_Objetos/Circunferencia/circunference.s: Classes_Objetos/Circunferencia/circunference.cpp.s
+.PHONY : Classes_Objetos/Circunferencia/circunference.s
 
 # target to generate assembly for a file
-Classes_Objetos/Circunferencia/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/main.cpp.s
-.PHONY : Classes_Objetos/Circunferencia/main.cpp.s
+Classes_Objetos/Circunferencia/circunference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Circunferencia/circunference.cpp.s
+.PHONY : Classes_Objetos/Circunferencia/circunference.cpp.s
 
-Classes_Objetos/Destrutor/main.o: Classes_Objetos/Destrutor/main.cpp.o
-.PHONY : Classes_Objetos/Destrutor/main.o
+Classes_Objetos/Destrutor/descructor_node.o: Classes_Objetos/Destrutor/descructor_node.cpp.o
+.PHONY : Classes_Objetos/Destrutor/descructor_node.o
 
 # target to build an object file
-Classes_Objetos/Destrutor/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.o
-.PHONY : Classes_Objetos/Destrutor/main.cpp.o
+Classes_Objetos/Destrutor/descructor_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.o
+.PHONY : Classes_Objetos/Destrutor/descructor_node.cpp.o
 
-Classes_Objetos/Destrutor/main.i: Classes_Objetos/Destrutor/main.cpp.i
-.PHONY : Classes_Objetos/Destrutor/main.i
+Classes_Objetos/Destrutor/descructor_node.i: Classes_Objetos/Destrutor/descructor_node.cpp.i
+.PHONY : Classes_Objetos/Destrutor/descructor_node.i
 
 # target to preprocess a source file
-Classes_Objetos/Destrutor/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.i
-.PHONY : Classes_Objetos/Destrutor/main.cpp.i
+Classes_Objetos/Destrutor/descructor_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.i
+.PHONY : Classes_Objetos/Destrutor/descructor_node.cpp.i
 
-Classes_Objetos/Destrutor/main.s: Classes_Objetos/Destrutor/main.cpp.s
-.PHONY : Classes_Objetos/Destrutor/main.s
+Classes_Objetos/Destrutor/descructor_node.s: Classes_Objetos/Destrutor/descructor_node.cpp.s
+.PHONY : Classes_Objetos/Destrutor/descructor_node.s
 
 # target to generate assembly for a file
-Classes_Objetos/Destrutor/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/main.cpp.s
-.PHONY : Classes_Objetos/Destrutor/main.cpp.s
+Classes_Objetos/Destrutor/descructor_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Destrutor/descructor_node.cpp.s
+.PHONY : Classes_Objetos/Destrutor/descructor_node.cpp.s
 
 Classes_Objetos/Exemplo/main.o: Classes_Objetos/Exemplo/main.cpp.o
 .PHONY : Classes_Objetos/Exemplo/main.o
@@ -225,29 +225,29 @@ Classes_Objetos/Exemplo/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/Exemplo/main.cpp.s
 .PHONY : Classes_Objetos/Exemplo/main.cpp.s
 
-Classes_Objetos/pontos/main.o: Classes_Objetos/pontos/main.cpp.o
-.PHONY : Classes_Objetos/pontos/main.o
+Classes_Objetos/pontos/pointers.o: Classes_Objetos/pontos/pointers.cpp.o
+.PHONY : Classes_Objetos/pontos/pointers.o
 
 # target to build an object file
-Classes_Objetos/pontos/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.o
-.PHONY : Classes_Objetos/pontos/main.cpp.o
+Classes_Objetos/pontos/pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.o
+.PHONY : Classes_Objetos/pontos/pointers.cpp.o
 
-Classes_Objetos/pontos/main.i: Classes_Objetos/pontos/main.cpp.i
-.PHONY : Classes_Objetos/pontos/main.i
+Classes_Objetos/pontos/pointers.i: Classes_Objetos/pontos/pointers.cpp.i
+.PHONY : Classes_Objetos/pontos/pointers.i
 
 # target to preprocess a source file
-Classes_Objetos/pontos/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.i
-.PHONY : Classes_Objetos/pontos/main.cpp.i
+Classes_Objetos/pontos/pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.i
+.PHONY : Classes_Objetos/pontos/pointers.cpp.i
 
-Classes_Objetos/pontos/main.s: Classes_Objetos/pontos/main.cpp.s
-.PHONY : Classes_Objetos/pontos/main.s
+Classes_Objetos/pontos/pointers.s: Classes_Objetos/pontos/pointers.cpp.s
+.PHONY : Classes_Objetos/pontos/pointers.s
 
 # target to generate assembly for a file
-Classes_Objetos/pontos/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/pontos/main.cpp.s
-.PHONY : Classes_Objetos/pontos/main.cpp.s
+Classes_Objetos/pontos/pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PP.dir/build.make CMakeFiles/PP.dir/Classes_Objetos/pontos/pointers.cpp.s
+.PHONY : Classes_Objetos/pontos/pointers.cpp.s
 
 # Help Target
 help:
@@ -258,21 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PP"
-	@echo "... Classes_Objetos/Circulo/_main.o"
-	@echo "... Classes_Objetos/Circulo/_main.i"
-	@echo "... Classes_Objetos/Circulo/_main.s"
-	@echo "... Classes_Objetos/Circunferencia/main.o"
-	@echo "... Classes_Objetos/Circunferencia/main.i"
-	@echo "... Classes_Objetos/Circunferencia/main.s"
-	@echo "... Classes_Objetos/Destrutor/main.o"
-	@echo "... Classes_Objetos/Destrutor/main.i"
-	@echo "... Classes_Objetos/Destrutor/main.s"
+	@echo "... Classes_Objetos/Circulo/circle.o"
+	@echo "... Classes_Objetos/Circulo/circle.i"
+	@echo "... Classes_Objetos/Circulo/circle.s"
+	@echo "... Classes_Objetos/Circunferencia/circunference.o"
+	@echo "... Classes_Objetos/Circunferencia/circunference.i"
+	@echo "... Classes_Objetos/Circunferencia/circunference.s"
+	@echo "... Classes_Objetos/Destrutor/descructor_node.o"
+	@echo "... Classes_Objetos/Destrutor/descructor_node.i"
+	@echo "... Classes_Objetos/Destrutor/descructor_node.s"
 	@echo "... Classes_Objetos/Exemplo/main.o"
 	@echo "... Classes_Objetos/Exemplo/main.i"
 	@echo "... Classes_Objetos/Exemplo/main.s"
-	@echo "... Classes_Objetos/pontos/main.o"
-	@echo "... Classes_Objetos/pontos/main.i"
-	@echo "... Classes_Objetos/pontos/main.s"
+	@echo "... Classes_Objetos/pontos/pointers.o"
+	@echo "... Classes_Objetos/pontos/pointers.i"
+	@echo "... Classes_Objetos/pontos/pointers.s"
 .PHONY : help
 
 
