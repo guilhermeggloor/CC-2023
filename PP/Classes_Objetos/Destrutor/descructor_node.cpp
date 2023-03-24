@@ -5,7 +5,7 @@ using namespace std;
 
 class DinamicIntArray {
 private:
-    int *ptr, size, nElem;
+    int *ptr, size, nElem, No;
 
 public:
     DinamicIntArray():size(16) { ptr = new int[size]; }
@@ -21,6 +21,18 @@ public:
 
     ~DinamicIntArray() { delete [] ptr; }
 
+    struct node {
+        int data;
+        node* next;
+    };
+
+    node* n;
+    node* t;
+    node* h;
+
+
+
+
     int getI(int index) const { return ptr[index]; }
 
     int getSize() const { return size; }
@@ -34,6 +46,8 @@ public:
     // fazer um vetor ordenado com inserção de elementos 
     // fazer uma função para inserção ordenada.
     //1 - Crie um procedimento p/ inserção ordenada e procecimento p/ remoção pelo valor da chave.
+
+
 };
 
 int main() {
