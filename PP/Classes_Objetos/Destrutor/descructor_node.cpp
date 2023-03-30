@@ -8,9 +8,13 @@ private:
     int *ptr, size, nElem, No;
 
 public:
-    DinamicIntArray():size(16) { ptr = new int[size]; }
+    DinamicIntArray():size(16), nElem(0) { 
+        ptr = new int[size]; 
+    }
 
-    explicit DinamicIntArray(int size):size(size) { ptr = new int[size]; }
+    explicit DinamicIntArray(int size):size(size), nElem(0) { 
+        ptr = new int[size]; 
+    }
 
     DinamicIntArray(const DinamicIntArray &other) {
         size = other.size;
@@ -21,17 +25,18 @@ public:
 
     ~DinamicIntArray() { delete [] ptr; }
 
-    struct node {
-        int data;
-        node* next;
-    };
 
+    int getI(int index) const { 
+        return ptr[index]; 
+    }
 
+    int getSize() const { 
+        return size; 
+    }
 
-    int getI(int index) const { return ptr[index]; }
-
-    int getSize() const { return size; }
-    int getNElem() const { return nElem; }
+    int getNElem() const { 
+        return nElem; 
+    }
 
     // void setI(int index, int value) { ptr[index] = value; }
 
