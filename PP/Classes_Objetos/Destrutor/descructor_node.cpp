@@ -26,11 +26,6 @@ public:
         node* next;
     };
 
-    node* n;
-    node* t;
-    node* h;
-
-
 
 
     int getI(int index) const { return ptr[index]; }
