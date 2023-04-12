@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ggloor/Documents/CC/AED2/Works/W1/circle_square.c" "CMakeFiles/Works.dir/W1/circle_square.c.o" "gcc" "CMakeFiles/Works.dir/W1/circle_square.c.o.d"
-  "/home/ggloor/Documents/CC/AED2/Works/W1/gfx/gfx.c" "CMakeFiles/Works.dir/W1/gfx/gfx.c.o" "gcc" "CMakeFiles/Works.dir/W1/gfx/gfx.c.o.d"
+  "/home/ggloor/Documentos/CC-2023/AED2/Works/W1/circle_square.c" "CMakeFiles/Works.dir/W1/circle_square.c.o" "gcc" "CMakeFiles/Works.dir/W1/circle_square.c.o.d"
+  "/home/ggloor/Documentos/CC-2023/AED2/Works/W1/gfx/gfx.c" "CMakeFiles/Works.dir/W1/gfx/gfx.c.o" "gcc" "CMakeFiles/Works.dir/W1/gfx/gfx.c.o.d"
   )
 
 # Targets to which this target links.

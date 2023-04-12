@@ -1,4 +1,4 @@
-# Install script for directory: /home/ggloor/Documents/CC/AED2/Works
+# Install script for directory: /home/ggloor/Documentos/CC-2023/AED2/Works
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

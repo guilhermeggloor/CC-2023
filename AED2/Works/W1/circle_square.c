@@ -1,48 +1,81 @@
 #include "gfx.h"
 #include <stdio.h>  /* printf */
 #include <unistd.h> /* sleep  */
-#include <math.h>
+#define CENTRO 300
+#define RADIUS 250
+#define SIZE 200
 
-// void Square(float base, float height)
-// {
-
-// }
-
-// void Circle(int x, int y, int rx, int ry)
-// {
-
-
-// }
-
-void Escolha()
+void Square(int x, int y, int size, int recurs)
 {
-	int input;
-	printf("\nEscolha entre 1 ou 2 entre as opções abaixo: \n");
-	printf("\n 1 - Circulo ");
-	printf("\n 2 - Quadrado ");
-	printf("\nDigite a opção escolhida: ");
-	scanf("%d", &input);
+    if (recurs > 0)
+    {
+        Square(x, y+(size/4)+(size/2), size/2, recurs-1);
+        Square(x, y-(size/4)-(size/2), size/2, recurs-1);
+        Square(x-(size/4)-(size/2), y, size/2, recurs-1);
+        Square(x+(size/4)+(size/2), y, size/2, recurs-1);
+    }
+    gfx_set_color(0, 0, 0);
+    gfx_filled_rectangle(x-(size/2), y+(size/2), x+(size/2), y-(size/2));
+    gfx_set_color(255, 255, 255);
+    gfx_rectangle(x-(size/2), y+(size/2), x+(size/2), y-(size/2));
+}
 
-	// if(input != 1 && 2)
-	// {
-		
+void Circle(int x, int y, int radius, int recurs)
+{
+    if (recurs > 0)
+    {
+        Circle(x-(radius/2.8), y-(radius/2.8), radius/2, recurs-1);
+        Circle(x+(radius/2.8), y-(radius/2.8), radius/2, recurs-1);
+        Circle(x-(radius/2.8), y+(radius/2.8), radius/2, recurs-1);
+        Circle(x+(radius/2.8), y+(radius/2.8), radius/2, recurs-1);
+    }
+    gfx_ellipse(x, y, radius, radius);
+}
 
-	// }
+void hub()
+{
+    int input;
+    int recurs;
+
+    printf("\n------------------------------------------");
+    printf("\n1 - Circulo");
+    printf("\n2 - Quadrado");
+    printf("\n------------------------------------------");
+    printf("\nDigite a opção: ");
+    scanf("%d", &input);
+
+    if(input == 1) {
+        printf("\nInforme o nivel de recursao(1-10): ");
+        scanf("%d", &recurs);
+
+        if(recurs >= 0 && recurs <= 10) {
+            Circle(CENTRO, CENTRO, RADIUS, recurs);
+        }
+        gfx_paint();
+    }
+
+    if (input == 2) {
+        printf("\nInforme o nivel de recursao(1-10): ");
+        scanf("%d", &recurs);
+
+        if(recurs >= 0 && recurs <= 10) {
+            Square(CENTRO, CENTRO, SIZE, recurs);
+        }
+        gfx_paint();
+    }
 
 }
 
-int main()
-{
+
+int main() {
 
 	gfx_init(600, 600, "W1 AED2");
 
-	Escolha();
-
-	gfx_paint();
-
-	sleep(5);
+    hub();
 
     getchar();
+
+	sleep(10);
 
 	gfx_quit();
 

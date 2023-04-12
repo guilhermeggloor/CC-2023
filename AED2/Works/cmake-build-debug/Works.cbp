@@ -8,86 +8,86 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug"/>
+				<Option working_dir="/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Works">
-				<Option output="/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Works" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug"/>
+				<Option output="/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Works" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ggloor/Documents/CC/AED2/Works/W1/gfx"/>
+					<Add directory="/home/ggloor/Documentos/CC-2023/AED2/Works/W1/gfx"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 Works"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 Works"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Works/fast">
-				<Option output="/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Works" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug"/>
+				<Option output="/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Works" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ggloor/Documents/CC/AED2/Works/W1/gfx"/>
+					<Add directory="/home/ggloor/Documentos/CC-2023/AED2/Works/W1/gfx"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 Works/fast"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 Works/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug"/>
+				<Option working_dir="/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug"/>
+				<Option working_dir="/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documents/CC/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ggloor/Documents/CC/AED2/Works/W1/circle_square.c">
+		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/W1/circle_square.c">
 			<Option target="Works"/>
 		</Unit>
-		<Unit filename="/home/ggloor/Documents/CC/AED2/Works/W1/gfx/gfx.c">
+		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/W1/gfx/gfx.c">
 			<Option target="Works"/>
 		</Unit>
-		<Unit filename="/home/ggloor/Documents/CC/AED2/Works/W1/gfx/gfx.h">
+		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/W1/gfx/gfx.h">
 			<Option target="Works"/>
 		</Unit>
-		<Unit filename="/home/ggloor/Documents/CC/AED2/Works/CMakeLists.txt">
+		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
