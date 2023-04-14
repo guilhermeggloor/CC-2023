@@ -3,15 +3,32 @@
 
 using namespace std;
 
+template<class T>
 class DinamicSortedArray {
 private:
-    int *ptr, size, nElem;
+    T *ptr,
+    int size, nElem;
 
-    void mySwap(int &a, int &b) {
-        int aux;
+    void mySwap(T &a, T &b) {
+        T aux;
         aux = a;
         a = b;
         b = aux;
+    }
+    bool realocArray(int tam) {
+        T *pAux;
+
+        pAux = new T[tam];
+        if(pAux == nullptr) {
+            return false;
+        }
+        memcpy(pAux, ptr, sizeof(T)*nElem);
+
+        delete [] ptr;
+        ptr = pAux;
+        size = tam;
+
+        return true;
     }
 
 public:
@@ -20,20 +37,20 @@ public:
     }
 
     explicit DinamicSortedArray(int size):size(size), nElem(0) { 
-        ptr = new int[size]; 
+        ptr = new T[size];
     }
 
-    DinamicSortedArray(const DinamicSortedArray &other) {
+    DinamicSortedArray(const DinamicSortedArray<T> &other) {
         size = other.size;
         nElem = other.nElem;
-        ptr = new int[size];
-        memcpy(ptr, other.ptr, sizeof(int)*size);
+        ptr = new T[size];
+        memcpy(ptr, other.ptr, sizeof(T)*size);
     }
 
     ~DinamicSortedArray() { delete [] ptr; }
 
 
-    int getI(int index) const { 
+    T getI(int index) const {
         return ptr[index]; 
     }
 
@@ -50,8 +67,8 @@ public:
         int i;
         bool flag;
 
-        // if(nElem == size)  
-        //     return false; 
+         if(nElem == size)
+             return false;
 
         // primeira tarefa: alocar um array com o dobro do tamanho
         // segunda tarefa: copiar os elementos que já estão ordenados
@@ -65,7 +82,7 @@ public:
         flag = true;
 
         while(flag) {
-            if ((!i) > 0)
+            if (!(i) > 0)
                 flag = false;
             else if (ptr[i] < ptr[i - 1])
                 mySwap(ptr[i], ptr[i-1]);
@@ -74,7 +91,7 @@ public:
         return true;
     }
 
-    bool search(int num, int &index) const {
+    bool search(T num, int &index) const {
         index = 0;
 
         while(index<nElem) {
@@ -86,7 +103,7 @@ public:
         return false;
     }
 
-    bool remove(int num) {
+    bool remove(T num) {
         int index;
 
         if(!search(num, index))
@@ -97,18 +114,21 @@ public:
         
         --nElem;
 
+        if(size/2 > nELem)
+            realocArray(size/2);
+
         return true;
     }
 
     void new_array(int new_size) {
         int *pAux;
         pAux = new int[new_size];
-        
+
     }
 };
 
 int main() {
-    DinamicSortedArray v1(5);
+    DinamicSortedArray<char> v1(5);
 
     // for (int i = 0; i < 5; ++i) { v1.setI(i, i + 1); }
 
@@ -129,11 +149,10 @@ int main() {
     cout << endl;
 
     v1.remove(6);
-    v1.remove(1);
-    v1.remove(91);
+    v1.remove(1);    v1.remove(91);
     v1.remove(11);
     v1.remove(9);
-
+    v1.remove(5);
 
     for(int i=0; i<v1.getNElem(); ++i)
         cout << v1.getI(i)<<' ';
