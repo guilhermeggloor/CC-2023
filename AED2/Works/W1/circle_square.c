@@ -54,6 +54,12 @@ void hub()
     printf("\nDigite a opção: ");
     scanf("%d", &input);
 
+    do {
+        printf("\nEscolha somente as opções 1 e 2! ");
+        printf("\nDigite novamente a opção: ");
+        scanf("%d", &input);
+    }while (input != 1 && input != 2);
+
     if(input == 1) {
         printf("\nInforme o nivel de recursao(1-10): ");
         scanf("%d", &recurs);
