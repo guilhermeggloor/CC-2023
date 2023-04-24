@@ -1,0 +1,17 @@
+/home/ggloor/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/ggloor/Documentos/CC-2023/PP/Classes_Objetos -B /home/ggloor/Documentos/CC-2023/PP/Classes_Objetos/cmake-build-debug
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ggloor/Documentos/CC-2023/PP/Classes_Objetos/cmake-build-debug

@@ -1,0 +1,4 @@
+/home/ggloor/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/ggloor/CLion-2023.1.1/clion-2023.1.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/ggloor/Documentos/CC-2023/AED2/aulas/lista -B /home/ggloor/Documentos/CC-2023/AED2/aulas/lista/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ggloor/Documentos/CC-2023/AED2/aulas/lista/cmake-build-debug
