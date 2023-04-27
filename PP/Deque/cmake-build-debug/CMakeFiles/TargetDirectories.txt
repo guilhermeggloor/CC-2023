@@ -1,0 +1,3 @@
+/home/ggloor/Documentos/CC-2023/PP/Deque/cmake-build-debug/CMakeFiles/Deque.dir
+/home/ggloor/Documentos/CC-2023/PP/Deque/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ggloor/Documentos/CC-2023/PP/Deque/cmake-build-debug/CMakeFiles/rebuild_cache.dir
