@@ -1,0 +1,3 @@
+/home/ggloor/Documentos/CC-2023/CN/T1/Jordan/cmake-build-debug/CMakeFiles/Jordan.dir
+/home/ggloor/Documentos/CC-2023/CN/T1/Jordan/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ggloor/Documentos/CC-2023/CN/T1/Jordan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

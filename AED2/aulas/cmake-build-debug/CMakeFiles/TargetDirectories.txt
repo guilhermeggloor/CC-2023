@@ -1,0 +1,3 @@
+/home/ggloor/Documentos/CC-2023/AED2/aulas/cmake-build-debug/CMakeFiles/aulas.dir
+/home/ggloor/Documentos/CC-2023/AED2/aulas/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ggloor/Documentos/CC-2023/AED2/aulas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

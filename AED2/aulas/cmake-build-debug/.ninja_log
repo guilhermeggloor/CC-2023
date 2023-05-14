@@ -1,0 +1,5 @@
+# ninja log v5
+1	41	1683812520712112901	CMakeFiles/aulas.dir/lista/len.c.o	f4ebbecbaf56c408
+0	42	1683812520716112961	CMakeFiles/aulas.dir/alocação_encadeada/lista.c.o	a08ab83ee9300555
+2	49	1683812520720113021	CMakeFiles/aulas.dir/recursivo/soma.c.o	7bd13f7cbc393d04
+2	52	1683812520724113081	CMakeFiles/aulas.dir/recursivo/palindromo.c.o	f8ffa2c4d82470e

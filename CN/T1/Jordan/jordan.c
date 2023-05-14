@@ -1,3 +1,12 @@
-//
-// Created by ggloor on 04/05/23.
-//
+#include <stdio.h>
+
+void invert()
+{
+
+}
+
+int main()
+{
+
+    return 0;
+}
