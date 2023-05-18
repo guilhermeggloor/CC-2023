@@ -1,0 +1,8 @@
+# do { 
+# //corpo
+# }while (a >= b); // !(a < b) 
+
+DO: 
+#  //corpo
+   slt $t0, $s0, $s1
+   beq $t0, $zero, DO 

@@ -1,0 +1,16 @@
+# for (i = 0; i < 10; ++i) 
+#   //corpo
+# } 
+# FIM_FOR
+# -i < -10
+# 10 < i
+# addi $t0, $zero, 10
+# slt $t1, $t0, $s0
+
+     addi $s0, $zero, 0
+FOR: slti $t0, $s0, 10
+     beq  $t0, $zero, FIM_FOR
+# //corpo 
+     addi $s0, $s0, 1   #++i
+     j FOR
+FIM_FOR:
