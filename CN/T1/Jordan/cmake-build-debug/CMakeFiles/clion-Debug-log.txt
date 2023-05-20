@@ -1,10 +1,4 @@
 /home/ggloor/CLion-2023.1.1/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/ggloor/CLion-2023.1.1/clion-2023.1.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/ggloor/Documentos/CC-2023/CN/T1/Jordan -B /home/ggloor/Documentos/CC-2023/CN/T1/Jordan/cmake-build-debug
--- The C compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/ggloor/Documentos/CC-2023/CN/T1/Jordan/cmake-build-debug
