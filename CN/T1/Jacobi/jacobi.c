@@ -4,13 +4,13 @@
 
 #define MAX_ITER 1000
 
-void jacobi(float matriz[][10], float b[], int ordem, float x[], float tolerancia) {
+void jacobi(float matriz[][10], float b[], int ordem, float x[], float precisao) {
     float x_ant[10];
     int iteracao = 0;
-    float dif = tolerancia + 1;
+    float dif = precisao + 1;
 
     // Loop principal do método de Jacobi
-    while (iteracao < MAX_ITER && dif > tolerancia) {
+    while (iteracao < MAX_ITER && dif > precisao) {
         // Copia os valores anteriores de x
         for (int i = 0; i < ordem; i++) {
             x_ant[i] = x[i];
@@ -64,11 +64,11 @@ int main() {
     float matriz[10][10];
     float b[10];
     float x[10];
-    float tolerancia;
+    float precisao;
 
     clock_t inicio = clock();
 
-    printf("Digite a ordem do sistema linear (no máximo 10): ");
+    printf("Ordem do sistema linear: ");
     scanf("%d", &ordem);
 
     printf("Digite os coeficientes da matriz:\n");
@@ -85,8 +85,8 @@ int main() {
         scanf("%f", &b[i]);
     }
 
-    printf("Digite a tolerância desejada: ");
-    scanf("%f", &tolerancia);
+    printf("Digite a precição desejada: ");
+    scanf("%f", &precisao);
 
     printf("Digite a solução inicial:\n");
     for (int i = 0; i < ordem; i++) {
@@ -100,7 +100,7 @@ int main() {
     }
     printf("\n");
 
-    jacobi(matriz, b, ordem, x, tolerancia);
+    jacobi(matriz, b, ordem, x, precisao);
 
     clock_t fim = clock();
     double tempo_exec = (double)(fim - inicio) / CLOCKS_PER_SEC;

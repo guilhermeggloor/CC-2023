@@ -57,7 +57,7 @@ int main() {
     float matriz[10][10];
     float matrizIdentidade[10][10];
 
-    printf("Digite a ordem da matriz (no máximo 10): ");
+    printf("Ordem da matriz: ");
     scanf("%d", &ordem);
 
     // Verifição da ordem da matriz
