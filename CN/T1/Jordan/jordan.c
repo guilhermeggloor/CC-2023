@@ -17,8 +17,8 @@ void imprimirMatrizes(int ordem, float matriz[][10], float matrizIdentidade[][10
     printf("\n");
 }
 
-//IMplementação da inversão de matrizes usando método de Jordan
-void gaussJordan(int ordem, float matriz[][10], float matrizIdentidade[][10]) {
+//Implementação da inversão de matrizes usando método de Jordan
+void Jordan(int ordem, float matriz[][10], float matrizIdentidade[][10]) {
     int i, j, k;
     float pivo;
 
@@ -37,11 +37,11 @@ void gaussJordan(int ordem, float matriz[][10], float matrizIdentidade[][10]) {
 
         for (j = 0; j < ordem; j++) {
             if (j != i) {
-                float fator = matriz[j][i];
+                float x = matriz[j][i];
 
                 for (k = 0; k < ordem; k++) {
-                    matriz[j][k] = matriz[j][k] - (fator * matriz[i][k]);
-                    matrizIdentidade[j][k] = matrizIdentidade[j][k] - (fator * matrizIdentidade[i][k]);
+                    matriz[j][k] = matriz[j][k] - (x * matriz[i][k]);
+                    matrizIdentidade[j][k] = matrizIdentidade[j][k] - (x * matrizIdentidade[i][k]);
                 }
             }
         }
@@ -87,7 +87,7 @@ int main() {
     printf("\nMatriz:\n");
     imprimirMatrizes(ordem, matriz, matrizIdentidade);
 
-    gaussJordan(ordem, matriz, matrizIdentidade);
+    Jordan(ordem, matriz, matrizIdentidade);
     
     printf("Matriz inversa final:\n");
     imprimirMatrizes(ordem, matriz, matrizIdentidade);
