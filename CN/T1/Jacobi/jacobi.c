@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <time.h>
 
 #define MAX_ITER 1000
 
@@ -26,24 +27,26 @@ void jacobi(float matriz[][10], float b[], int ordem, float x[], float toleranci
             x[i] = (b[i] - soma) / matriz[i][i];
         }
 
-        // Exibe o sistema linear atual
+     	//Exibe apenas a iteracão ! 
         printf("Iteração %d:\n", iteracao + 1);
+        printf("\n");
+        
+        
+        // Exibe os resultados da iteração
+        printf("Resultados:\n");
         for (int i = 0; i < ordem; i++) {
-            for (int j = 0; j < ordem; j++) {
-                printf("%.2f*x[%d]", matriz[i][j], j);
-                if (j < ordem - 1) {
-                    printf(" + ");
-                }
-            }
-            printf(" = %.2f\n", b[i]);
+            printf("x[%d] = %.7f\n", i, x[i]);
         }
         printf("\n");
 
-        // Calcula a diferença entre os valores de x atual e anterior
+        // Calcula o erro
         dif = 0;
         for (int i = 0; i < ordem; i++) {
             dif += fabs(x[i] - x_ant[i]);
         }
+
+        // Exibe o erro
+        printf("Erro: %.7f\n\n", dif);
 
         iteracao++;
     }
@@ -62,6 +65,8 @@ int main() {
     float b[10];
     float x[10];
     float tolerancia;
+
+    clock_t inicio = clock();
 
     printf("Digite a ordem do sistema linear (no máximo 10): ");
     scanf("%d", &ordem);
@@ -89,12 +94,18 @@ int main() {
         scanf("%f", &x[i]);
     }
 
+    printf("Iteração 0:\n");
+    for (int i = 0; i < ordem; i++) {
+        printf("x[%d] = %.7f\n", i, x[i]);
+    }
+    printf("\n");
+
     jacobi(matriz, b, ordem, x, tolerancia);
 
-    printf("Solução encontrada:\n");
-    for (int i = 0; i < ordem; i++) {
-        printf("x[%d] = %.10f\n", i, x[i]);
-    }
+    clock_t fim = clock();
+    double tempo_exec = (double)(fim - inicio) / CLOCKS_PER_SEC;
+
+    printf("Tempo de execução: %.6f segundos\n", tempo_exec);
 
     return 0;
 }
