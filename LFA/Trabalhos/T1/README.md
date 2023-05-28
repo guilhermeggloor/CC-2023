@@ -13,4 +13,4 @@
 ### * Um conjunto de estados finais
 
 
-
+![DFA_example_multiplies_of_3 svg](https://github.com/guilhermeggloor/CC-2023/assets/87498252/bc76c832-ad9d-4030-baa9-792a92c33d06)
