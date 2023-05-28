@@ -9,7 +9,7 @@
 ### * Um conjunto finito de Estados
 ### * Um alfabeto de entrada finita 
 ### * Um conjunto de transições 
-### * Um estado inicila 
+### * Um estado inicial 
 ### * Um conjunto de estados finais
 
 
