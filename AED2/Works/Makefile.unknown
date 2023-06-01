@@ -1,0 +1,36 @@
+PROGRAMS := programs
+BIN := bin
+INCLUDE := include
+LIB := lib
+OBJ := obj
+SRC := src
+
+FLAGS := -Wall -Wextra -pedantic -lm
+LIBRARIES := -lgfx -lSDL -lSDL_gfx -lSDL_ttf
+
+all: lib program
+
+lib: \
+	$(OBJ)/Node.o \
+	$(OBJ)/GraphicInterface.o \
+	$(OBJ)/MemoryManager.o \
+	$(OBJ)/ListAvaliableBlocks.o \
+	$(OBJ)/ListAllocatedBlocks.o
+	ar -rcs $(LIB)/libmemorymanager.a $(OBJ)/*.o
+
+program: $(BIN)/main
+
+$(OBJ)/%.o: $(SRC)/%.c $(INCLUDE)/%.h
+	gcc -c $< -I $(INCLUDE) -I gfx -o $@
+
+$(BIN)/%: $(PROGRAMS)/%.c
+	gcc $< $(OBJ)/*.o -I $(INCLUDE) -L gfx $(LIBRARIES) $(FLAGS) -o $@
+
+run:
+	$(BIN)/main
+
+clean:
+	rm -rf $(BIN)/* $(LIB)/* $(OBJ)/*
+
+clean_all_exe:
+	rm -rf $(BIN)/*

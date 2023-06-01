@@ -39,17 +39,40 @@ def printResultado(resultado):
     if resultado:
         print("\n")
         print("palavra aceita pelo automato! ")
+        print("\n")
     else:
         print("\n")
         print("palavra rejeitada pelo automato! ")
+        print("\n")
 
+def exibirTabelaTransicao(estados, alfabeto, transicoes):
+    print("\n----- Tabela de Transição -----")
+    # Cabeçalho da tabela
+    header = "Estado " + " ".join(f"| {simbolo:^10}" for simbolo in alfabeto)
+    print(header)
+    print("-" * (len(header) + 1))
+
+    # Corpo da tabela
+    for estado in estados:
+        row = f"{estado:<7}" + " ".join(f"| {transicoes[estado].get(simbolo, '-'):^10}" for simbolo in alfabeto)
+        print(row)
+        print("-" * (len(header) + 1))
 
 # Função principal
 def main():
-    alfabeto, estados, estado_inicial, estados_aceitacao, transicoes, palavra = entrada()
-    resultado = automatoFinitoDeterministico(estados, alfabeto, estado_inicial, estados_aceitacao, transicoes, palavra)
-    printResultado(resultado)
+    while True:
+        print("----Autômato Finito Determinístico----")
+        alfabeto, estados, estado_inicial, estados_aceitacao, transicoes, palavra = entrada()
+        resultado = automatoFinitoDeterministico(estados, alfabeto, estado_inicial, estados_aceitacao, transicoes, palavra)
 
+        exibirTabelaTransicao(estados, alfabeto, transicoes)
+        print("\n")
+        printResultado(resultado)
+    
+        opcao = input("Deseja executar novamente? (s/n): ")
+        if opcao.lower() != 's':
+            break
 
 # Chamada da função principal
 main()
+
