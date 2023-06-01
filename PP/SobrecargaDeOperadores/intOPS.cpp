@@ -53,35 +53,35 @@ public:
         return DInt(num--);
     }
 
-    bool operator ==(const DInt &other) {//pré - --x
+    bool operator ==(const DInt &other) const{//pré - --x
         return (num==other.num);
     }
 
-    bool operator !=(const DInt &other) {//pré - --x
+    bool operator !=(const DInt &other) const{//pré - --x
         return (num!=other.num);
     }
 
-    bool operator <(const DInt &other) {//pré - --x
+    bool operator <(const DInt &other) const{//pré - --x
         return (num<other.num);
     }
 
-    bool operator >(const DInt &other) {//pré - --x
+    bool operator >(const DInt &other) const{//pré - --x
         return (num>other.num);
     }
 
-    bool operator <=(const DInt &other) {//pré - --x
+    bool operator <=(const DInt &other) const{//pré - --x
         return (num<=other.num);
     }
 
-    bool operator >=(const DInt &other) {//pré - --x
+    bool operator >=(const DInt &other) const{//pré - --x
         return (num>=other.num);
     }
 
-    bool operator &&(const DInt &other) {
+    bool operator &&(const DInt &other) const {
         return (num&&other.num);
     }
 
-    bool operator ||(const DInt &other) {
+    bool operator ||(const DInt &other) const {
         return (num||other.num);
     }
 
@@ -105,20 +105,26 @@ int main() {
     // cout << "divisao: " << f.getInt() << endl;
     // cout << "resto: " << g.getInt() << endl;
 
-    DInt a(1), b(2);
+   
+
+    DInt a(2), b(2);
+
+    cout << "-----------------------sobrecarga-------------------" << endl;
     b = ++a; cout << b.getInt() << endl;
     b = a++; cout << b.getInt() << endl; cout << a.getInt() << endl;
     b = --a; cout << b.getInt() << endl;
     b = a--; cout << b.getInt() << endl; cout << a.getInt() << endl;
-    b = a==b; cout << b.getInt() << endl; 
-    b = a!=b; cout << b.getInt() << endl;
-    b = a<b; cout << b.getInt() << endl;
-    b = a>b; cout << b.getInt() << endl;
-    b = a<=b; cout << b.getInt() << endl;
-    b = a>=b; cout << b.getInt() << endl;
-    b = a&&b; cout << b.getInt() << endl;
-    b = a||b; cout << b.getInt() << endl;
-    b = !a; cout << b.getInt() << endl;       
+    b = a==b; cout << "é igual: " << b.getInt() << endl; 
+    b = a!=b; cout << "é diferente: " <<  b.getInt() << endl;
+    b = a<b; cout << "menor que: " << b.getInt() << endl;
+    b = a>b; cout << "maior que: " << b.getInt() << endl;
+    b = a<=b; cout << "menor igual que: " << b.getInt() << endl;
+    b = a>=b; cout << "maior igual que: " << b.getInt() << endl;
+    b = a&&b; cout << "a e b: " << b.getInt() << endl;
+    b = a||b; cout << "a ou b: " << b.getInt() << endl;
+    b = !a; cout << "a diferente de b: " << b.getInt() << endl;
+    cout << "---------------------------------------------------" << endl;
+        
      
     return 0;
 }
