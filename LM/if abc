@@ -11,3 +11,5 @@ beq $t2, $zero, FIM_DO_IF
 
 
 FIM_DO_IF: 
+addi $v0, $zero, 10
+syscall
