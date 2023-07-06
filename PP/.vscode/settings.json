@@ -47,5 +47,6 @@
         "streambuf": "cpp",
         "typeinfo": "cpp"
     },
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "/home/ggloor/projects/CC-2023/PP/Classes_Objetos"
 }
