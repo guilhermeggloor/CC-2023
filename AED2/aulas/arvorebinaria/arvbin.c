@@ -21,11 +21,6 @@ struct s_noab* aloca(char ch)
 
 }
 
-void desenha_arvore()
-{
-
-}
-
 void imprime(const struct s_noab *pt)
 {
     if( pt == NULL)
