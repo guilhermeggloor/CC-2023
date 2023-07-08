@@ -11,6 +11,17 @@ d)cálculo de matriz inversa.
 using namespace std;
 
 class Matriz {
+    int linha, coluna;
+    int matrix[2][2];
+
+public: 
+    int getLinha() {return linha;}
+    void setLinha(int linha) {this->linha = linha;}
+
+    int getColuna() {return linha;}
+    void setColuna(int coluna) {this->coluna = coluna;}
+
+    Matriz(int linha, int coluna) : linha(linha), coluna(coluna) {};
     
 };
 
