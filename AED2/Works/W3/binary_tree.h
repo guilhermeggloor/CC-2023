@@ -1,3 +1,6 @@
+// ALuno: Guilherme Garcia Gloor
+// RGM: 45535
+
 #ifndef BINARY_TREE_H
 #define BINARY_TREE_H
 
