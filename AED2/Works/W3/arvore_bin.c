@@ -46,11 +46,13 @@ void displayTree(Node *root, int x, int y) {
     int horizontalSpacing = (leftCount + rightCount) * 30;
 
     // Exibe o nó atual
-    gfx_rectangle(x, y, x + nodeSize, y + nodeSize);
+    gfx_set_color(128, 0, 128);
+    gfx_filled_rectangle(x, y, x + nodeSize, y + nodeSize);
     char label[10];
     snprintf(label, sizeof(label), "%d", root->key);
     int textWidth, textHeight;
     gfx_get_text_size(label, &textWidth, &textHeight);
+    gfx_set_color(255, 255, 255);
     gfx_text(x + (nodeSize / 2) - (textWidth / 2), y + (nodeSize / 2) - (textHeight / 2), label);
 
     // Exibe as conexões com os filhos
@@ -213,7 +215,7 @@ Node *removeNode(Node *root, int key) {
     return root;
 }
 
-
+// Função principal com entrada de dados e opções de escolha no terminal
 int main() {
     gfx_init(1024, 768, "W3 AED2");
 
