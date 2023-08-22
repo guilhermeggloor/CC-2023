@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.22"
+						"string" : "3.26"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Works",
+					"name" : "P1_PP",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Works::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Works-Debug-4e109b4fbb71994b4646.json",
-					"name" : "Works",
+					"id" : "P1_PP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1_PP-Debug-90694742a53b4826958a.json",
+					"name" : "P1_PP",
 					"projectIndex" : 0
 				}
 			]
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ggloor/Documentos/CC-2023/AED2/Works/cmake-build-debug",
-		"source" : "/home/ggloor/Documentos/CC-2023/AED2/Works"
+		"build" : "/home/ggloor/\u00c1rea de Trabalho/P1 PP/cmake-build-debug",
+		"source" : "/home/ggloor/\u00c1rea de Trabalho/P1 PP"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }

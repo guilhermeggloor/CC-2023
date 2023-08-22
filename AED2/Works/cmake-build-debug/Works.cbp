@@ -87,6 +87,12 @@
 		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/W1/gfx/gfx.h">
 			<Option target="Works"/>
 		</Unit>
+		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/W4/AVL.c">
+			<Option target="Works"/>
+		</Unit>
+		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/W4/AVL.h">
+			<Option target="Works"/>
+		</Unit>
 		<Unit filename="/home/ggloor/Documentos/CC-2023/AED2/Works/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

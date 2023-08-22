@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Works.dir/W1/circle_square.c.o.d"
   "CMakeFiles/Works.dir/W1/gfx/gfx.c.o"
   "CMakeFiles/Works.dir/W1/gfx/gfx.c.o.d"
+  "CMakeFiles/Works.dir/W4/AVL.c.o"
+  "CMakeFiles/Works.dir/W4/AVL.c.o.d"
   "Works"
   "Works.pdb"
 )

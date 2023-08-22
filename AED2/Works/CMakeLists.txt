@@ -8,4 +8,6 @@ include_directories(W1/gfx)
 add_executable(Works
         W1/gfx/gfx.c
         W1/gfx/gfx.h
-        W1/circle_square.c)
+        W1/circle_square.c
+        W4/AVL.h
+        W4/AVL.c)

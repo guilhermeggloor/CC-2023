@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/Works.dir/W1/gfx/gfx.c.o CMakeFiles/Works.dir/W1/circle_square.c.o -o Works 
+/usr/bin/cc -g CMakeFiles/Works.dir/W1/gfx/gfx.c.o CMakeFiles/Works.dir/W1/circle_square.c.o CMakeFiles/Works.dir/W4/AVL.c.o -o Works 

@@ -10,10 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ggloor/Documentos/CC-2023/AED2/Works/W1/circle_square.c" "CMakeFiles/Works.dir/W1/circle_square.c.o" "gcc" "CMakeFiles/Works.dir/W1/circle_square.c.o.d"
   "/home/ggloor/Documentos/CC-2023/AED2/Works/W1/gfx/gfx.c" "CMakeFiles/Works.dir/W1/gfx/gfx.c.o" "gcc" "CMakeFiles/Works.dir/W1/gfx/gfx.c.o.d"
+  "/home/ggloor/Documentos/CC-2023/AED2/Works/W4/AVL.c" "CMakeFiles/Works.dir/W4/AVL.c.o" "gcc" "CMakeFiles/Works.dir/W4/AVL.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

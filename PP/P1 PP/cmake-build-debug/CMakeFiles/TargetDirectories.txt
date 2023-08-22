@@ -1,0 +1,3 @@
+/home/ggloor/Área de Trabalho/P1 PP/cmake-build-debug/CMakeFiles/P1_PP.dir
+/home/ggloor/Área de Trabalho/P1 PP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ggloor/Área de Trabalho/P1 PP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
